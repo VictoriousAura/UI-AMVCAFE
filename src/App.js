@@ -10,16 +10,19 @@ import ReactPlayer from 'react-player';
 import ComplexGrid from './ComplexGrid';
 import TryDemo from './TryDemo';
 import Division from './Division'
+import Nav from './Nav';
 
 
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Navigbar></Navigbar>
-        <Division>
-          <TryDemo></TryDemo>
-        </Division>
+        {/* <Navigbar></Navigbar> */}
+        
+       {/* <Nav></Nav> */}
+           <Division>
+          {/* <TryDemo></TryDemo> */}
+        </Division>  
         {/* <Navigbar></Navigbar> */}
         {/* <ResponsivePlayer></ResponsivePlayer> */}
 

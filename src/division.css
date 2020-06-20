@@ -6,7 +6,7 @@ body {
   .split {
     height: 100%;
     width: 50%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     overflow-x: hidden;
@@ -22,7 +22,7 @@ body {
   .right {
     width: 30%;
     right: 0;
-    background-color: red;
+    background-color: white;
   }
   
   .centered {
@@ -37,3 +37,46 @@ body {
     width: 150px;
     border-radius: 50%;
   }
+
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  input{
+    margin-top: 11px;
+  }
+
+.split .left {
+  overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.react-player{
+  background:black;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

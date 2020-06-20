@@ -1,14 +1,22 @@
-.player-wrapper {
+/* .player-wrapper {
   position: relative;
   padding-top: 30vm;
   padding-left: 0%;
-}
+} */
 
   
-  .react-player {
+  /* .react-player {
     position: absolute;
     top: 0;
     left: 0;
     margin-top: 20%;
-  }
+  } */
   
+  .react-player{
+    background:green;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
